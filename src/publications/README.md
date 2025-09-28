@@ -4,8 +4,9 @@ index: false
 article: false
 pageInfo: false
 icon: graduation-cap
-sidebar: true
+sidebar: false
 comment: false
 ---
 
-- P. Paimon and **L. Lumine**, [Emergency! An empirical analysis of ingredient substitutability under crisis conditions: Can Slime Condensate ever replace Salt?](./example-pub.md) in Proc. 5th Int. Conf. Culinary Alchemy Food Sci., Ormos, Sumeru, Teyvat, 2025, pp. 12–15. doi: 10.1109/ICCAFS.2025.00008.
+- Ruolin Wang, Yuejiao Xu, Jianmin Ji. [Traffic Scenario Logic: A Spatial-Temporal Logic for Modeling and Reasoning of Urban Traffic Scenarios](./TSL.md)
+- Ruolin Wang, Yuejiao Xu, Je Peng, and Jianmin Ji. [A^2^cost: An asp-based avoidable collision scenario testbench for autonomous vehicles](./A2Cost.md)
