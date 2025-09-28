@@ -5,21 +5,22 @@ article: false
 icon: home
 title: Home
 titles:
-  - A homepage template based on vuepress and theme-hope
-  - Support résumé, blog, project pages and publication pages
-  - Suitable for college students and researchers
+  - USTC M.Eng. in Computer Science & Technology
+  - Researching on KR & Autonomous Driving Safety Assessment
+  - Familiar with Reinforcement Learning & Robotics
+  - Maker Culture Enthusiast
+  - Amateur Front-End Developer
+  - Passionate About Photography and Amateur Astronomy
 avatar: /assets/images/portrait.jpg
 avatarStyle: "display: none"
 ---
 
 ## Introduction
 
-A simple, powerful, and academic-focused personal homepage template. It empowers you to create a professional site with resume, blogs, projects, and publications directly from Markdown files. No local setup is required thanks to GitHub Actions.
+I am currently an RA at the University of Science and Technology of China, supervised by Associate Professor Jianmin Ji.
 
-- Beginner-Friendly: Just write Markdown and let GitHub Actions handle the rest.
-- Built-in Resume Page: Craft your resume in Markdown and export it seamlessly to PDF.
-- Perfect for Academics: Showcase your blog, projects, and publications with ease.
+My research interests include scenario-based autonomous vehicle safety assessment and KR-based traffic scenario representation and generation.
 
-Ready to build your own?
+I'm interested in many robotics and autonomous driving fields, including reinforcement learning, motion planning, and trajectory optimization.
 
-Explore the source code, detailed documentation, and get started on [GitHub](https://Violin9906.github.io/awesome-homepage).
+I hold a Master's degree in engineering with a major in computer science and technology, and a Bachelor's degree in engineering with a major in automation and control from the University of Science and Technology of China.
