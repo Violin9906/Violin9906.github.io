@@ -1,0 +1,30 @@
+{
+  "name": "awesome-homepage",
+  "description": "A homepage template based on vuepress and theme-hope",
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "docs:build": "vuepress-vite build src",
+    "docs:clean-dev": "vuepress-vite dev src --clean-cache",
+    "docs:dev": "vuepress-vite dev src",
+    "docs:update-package": "npx vp-update"
+  },
+  "devDependencies": {
+    "@vuepress/bundler-vite": "2.0.0-rc.14",
+    "@vuepress/plugin-register-components": "2.0.0-rc.37",
+    "chart.js": "^4.4.4",
+    "echarts": "^5.5.1",
+    "flowchart.ts": "^3.0.0",
+    "markmap-lib": "^0.17.0",
+    "markmap-toolbar": "^0.17.0",
+    "markmap-view": "^0.17.0",
+    "mathjax-full": "^3.2.2",
+    "mermaid": "^10.9.1",
+    "reveal.js": "^5.1.0",
+    "vue": "^3.4.31",
+    "vuepress": "2.0.0-rc.14",
+    "vuepress-plugin-search-pro": "2.0.0-rc.52",
+    "vuepress-theme-hope": "2.0.0-rc.52"
+  }
+}

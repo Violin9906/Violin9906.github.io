@@ -1,0 +1,74 @@
+@use "@sass-palette/hope-config";
+
+// place your custom styles here
+
+@import "projectHome.scss";
+@import "content.scss";
+
+.vp-portfolio-container {
+    justify-content: center;
+    text-align: center;
+}
+
+.vp-portfolio-info .vp-social-medias {
+    justify-content: center;
+}
+
+@media (max-width: hope-config.$pad) {
+    .vp-portfolio-container {
+        justify-content: end;
+        min-height: 50vh;
+    }
+}
+
+@media print {
+    .vp-footer-wrapper {
+        display: none;
+    }
+}
+
+html[data-theme=light] {
+    --home-bg: rgba(0, 0, 0, 0.2)
+}
+html[data-theme=dark] {
+    --home-bg: rgba(255, 255, 255, 0.2)
+}
+
+html[data-theme=light] {
+    --school-color: #194178;
+    --phone-color: #42b983;
+    --email-color: #ffc310;
+    --github-color: #1f2328;
+    --gitee-color: #c71d23;
+    --homepage-color: #c71d23;
+}
+
+html[data-theme=dark] {
+    --school-color: #5a8bce;
+    --phone-color: #2c9e6c;
+    --email-color: #b89e00;
+    --github-color: #cfd3d7;
+    --gitee-color: #a1121a;
+    --homepage-color: #a1121a;
+}
+
+.vp-portfolio:not(.bg)::after {
+    background-color: var(--home-bg);
+}
+
+.vp-article-excerpt h2 {
+    font-size: 1.1rem;
+}
+
+.vp-article-excerpt h3 {
+    font-size: 1.1rem;
+}
+
+.vp-article-excerpt h4 {
+    font-size: 1.08rem;
+}
+
+mjx-container {
+    overflow-x: auto;
+    overflow-y: hidden;
+}
