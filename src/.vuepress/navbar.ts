@@ -12,7 +12,7 @@ const enNavbar = navbar([
     text: "Projects",
     icon: "bars-progress",
     prefix: "projects/",
-    children: ["awesome-homepage"],
+    children: ["dadsim", "awesome-homepage"],
   },
   {
     text: "Publications",
