@@ -18,7 +18,12 @@ const enNavbar = navbar([
     text: "Publications",
     icon: "graduation-cap",
     link: "publications/",
-  }
+  },
+  {
+    text: "TA",
+    icon: "person-chalkboard",
+    link: "http://home.ustc.edu.cn/~violinwang/ta/",
+  },
 ]);
 
 /* i18n */

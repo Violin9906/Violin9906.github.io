@@ -24,8 +24,8 @@ export default defineUserConfig({
   //   },
   // },
   
-  title: "Awesome Homepage",
-  description: "A homepage template based on vuepress and theme-hope",
+  title: "Ruolin Wang",
+  description: "Ruolin Wang's personal website",
 
   theme,
 

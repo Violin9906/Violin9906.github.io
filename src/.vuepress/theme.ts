@@ -4,18 +4,18 @@ import {enNavbar, zhNavbar} from "./navbar.js";
 import {enSidebar, zhSidebar} from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://Violin9906.github.io/awesome-homepage",
+  hostname: "https://ruolin.wang",
 
   author: {
-    name: "Awesome Homepage",
-    url: "https://Violin9906.github.io/awesome-homepage",
+    name: "Ruolin Wang",
+    url: "https://ruolin.wang",
   },
 
   iconAssets: "fontawesome-with-brands",
 
   logo: "assets/icon/logo.png",
 
-  repo: "Violin9906/awesome-homepage",
+  repo: "Violin9906",
 
   docsDir: "src",
 
@@ -42,20 +42,20 @@ export default hopeTheme({
   },
 
   blog: {
-    description: "A homepage template based on vuepress and theme-hope",
+    description: "A Master's Student at USTC",
     intro: "/intro.html",
     avatar: "/assets/images/portrait.jpg",
     medias: {
-      Email: "mailto:example@example.com",
-      GitHub: "https://github.com/Violin9906/awesome-homepage",
-      Linkedin: "https://www.linkedin.com/",
+      Email: "mailto:rl_wang@mail.ustc.edu.cn",
+      GitHub: "https://github.com/Violin9906",
+      Linkedin: "https://www.linkedin.com/in/ruolin-wang-631878206/",
       ORCiD: {
         icon: "https://orcid.org/assets/vectors/orcid.logo.icon.svg",
-        link: "https://orcid.org/",
+        link: "https://orcid.org/0009-0004-9053-8951",
       },
       GoogleScholar: {
         icon: "https://scholar.google.com/favicon.ico",
-        link: "https://scholar.google.com/",
+        link: "https://scholar.google.com/citations?user=VBOzYR0AAAAJ&hl=en",
       },
     },
   },
@@ -70,25 +70,25 @@ export default hopeTheme({
   // hotReload: true,
 
   // Encrypt some of your blogs by uncomment this
-  // encrypt: {
-  //   config: {
-  //     "/encrypt": ["password"],
-  //   },
-  // },
+  encrypt: {
+    config: {
+      "/posts/Story": ["19990628"],
+    },
+  },
 
   plugins: {
     blog: true,
 
     // Uncomment this to enable comment
     // see https://giscus.app/
-    // comment: {
-    //   provider: "Giscus",
-    //   repo: "YOUR_REPO",
-    //   repoId: "YOUR_REPO_ID",
-    //   category: "Comments",
-    //   categoryId: "YOUR_CATEGORY_ID",
-    //   lazyLoading: true,
-    // },
+    comment: {
+      provider: "Giscus",
+      repo: "Violin9906/homepage-giscus-comments",
+      repoId: "R_kgDOP4d0YQ",
+      category: "Comments",
+      categoryId: "DIC_kwDOP4d0Yc4Cv_nR",
+      lazyLoading: true,
+    },
 
     components: {
       components: ["Badge", "VPCard"],
