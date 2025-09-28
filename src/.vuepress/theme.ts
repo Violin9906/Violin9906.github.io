@@ -13,7 +13,7 @@ export default hopeTheme({
 
   iconAssets: "fontawesome-with-brands",
 
-  logo: "assets/icon/logo.png",
+  logo: "/assets/icon/logo.png",
 
   repo: "Violin9906",
 
