@@ -113,9 +113,14 @@ const bgDarkStyle = computed(() => [
 <style scoped lang="scss">
 @use "@sass-palette/hope-config";
 
+@font-face {
+    font-family: 'Empirica ExtraLight';
+    src: url('../assets/fonts/Empirica-ExtraLight.woff2');
+}
+
 .vp-hero-title-publication {
     font-size: 2em;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Empirica ExtraLight', 'Times New Roman', Times, serif;
 }
 
 .vp-hero-authors {
