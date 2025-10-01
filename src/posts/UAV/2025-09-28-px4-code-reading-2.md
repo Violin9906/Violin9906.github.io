@@ -1,6 +1,6 @@
 ---
 icon: pen-to-square
-date: 2025-09-26
+date: 2025-09-28
 tag:
   - UAV
   - PX4
@@ -255,7 +255,7 @@ $$
 $$
 这里的分母是机身方向单位向量在z轴方向的分量。代码中实际上还进行了一次裁剪以确保不超过油门限值。最后，乘以机身单位向量来得到矢量的油门：
 $$
-\mathbf{\sigma}=\sigma\mathbf{b}_z
+\vec{\sigma}=\sigma\mathbf{b}_z
 $$
 
 
