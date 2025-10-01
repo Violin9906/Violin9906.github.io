@@ -1,7 +1,7 @@
 ---
 home: true
 title: Awesome Homepage
-icon: route
+icon: pager
 article: false
 details: A homepage template based on vuepress and theme-hope
 heroText: Awesome Homepage
