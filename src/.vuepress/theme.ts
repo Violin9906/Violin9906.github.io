@@ -27,7 +27,7 @@ export default hopeTheme({
       // sidebar
       sidebar: enSidebar,
 
-      footer: "Powered by VuePress",
+      footer: "Powered by Awesome Homepage",
 
       displayFooter: true,
     },
@@ -36,7 +36,7 @@ export default hopeTheme({
     // "/zh/": {
     //   navbar: zhNavbar,
     //   sidebar: zhSidebar,
-    //   footer: "Powered by VuePress",
+    //   footer: "Powered by Awesome Homepage",
     //   displayFooter: true,
     // }
   },
