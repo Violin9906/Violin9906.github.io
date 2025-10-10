@@ -299,7 +299,7 @@ $$
 
 对于用四元数表示的一个旋转$r$，在不同坐标系下表示它的四元数关系为：
 $$
-\mathbf{q}^A_r=(\pm)(\mathbf{q}^A_B)^*\mathbf{q}^A_r\mathbf{q}^A_B
+\mathbf{q}^B_r=(\pm)(\mathbf{q}^A_B)^*\mathbf{q}^A_r\mathbf{q}^A_B
 $$
 这和旋转矩阵在形式上一致。
 
