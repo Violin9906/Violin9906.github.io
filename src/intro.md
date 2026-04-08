@@ -27,18 +27,16 @@ photo: assets/images/portrait.jpg
 
 ## Introduction
 
-I am an RA at the University of Science and Technology of China, supervised by Associate Professor Jianmin Ji.
-My research interests include scenario-based autonomous vehicle safety assessment and KR-based traffic scenario representation and generation.
-I'm also interested in many robotics and autonomous driving fields, including reinforcement learning, motion planning, trajectory optimization, and even hardware design.
+I am a Research Assistant at the University of Science and Technology of China (USTC), supervised by Prof. Jianmin Ji. Building upon a solid foundation in Control Theory (B.Eng.) and Knowledge Representation (M.Eng.), my research is evolving from logic-based autonomous vehicle safety assessment toward advanced UAV control and collaborative control of continuum soft robots and UAVs. I am dedicated to bridging formal reasoning with agile physical control to enhance the safety and versatility of complex robotic systems.
 
 ## Highlights
 
 - Experienced in scenario-based autonomous driving safety assessment methods
-- Familiar with autonomous driving planning algorithms such as EM Planner and Lattice Planner
-- Acquainted with reinforcement learning algorithms like DQN and PPO
+- Familiar with autonomous driving planning algorithms
+- Acquainted with reinforcement learning
 - Proficient in logic programming based on Answer Set Programming
 - Knowledgeable about control theory, circuit theory, embedded system development, and hardware design of robots
-- Experienced in C/C++/Python/ROS/ROS 2
+- Experienced in C/C++/Python/ROS/ROS 2/MATLAB & Simulink
 
 ## Education
 
@@ -71,7 +69,7 @@ I'm also interested in many robotics and autonomous driving fields, including re
 ## Publications
 
 - **Ruolin Wang**, Yuejiao Xu, Je Peng, and Jianmin Ji. "*A^2^cost: An asp-based avoidable collision scenario testbench for autonomous vehicles.*" Proceedings of the 20th International Conference on Principles of Knowledge Representation and Reasoning. 2023.
-- **Ruolin Wang**, Yuejiao Xu, and Jianmin Ji. "*Traffic Scenario Logic: A Spatial-Temporal Logic for Modeling and Reasoning of Urban Traffic Scenarios.*" Proceedings of the 39th AAAI Conference on Artificial Intelligence. 2024.
+- **Ruolin Wang**, Yuejiao Xu, and Jianmin Ji. "*Traffic Scenario Logic: A Spatial-Temporal Logic for Modeling and Reasoning of Urban Traffic Scenarios.*" Proceedings of the 39th AAAI Conference on Artificial Intelligence. 2025.
 
 ## Project Experience
 
@@ -79,6 +77,11 @@ I'm also interested in many robotics and autonomous driving fields, including re
 
 - A collaboration project with Huawei Technologies Co., Ltd.
 - Implement a cloud-based task planning algorithm based on a KR system as a project participant.
+
+### <FlexSpan style="justify-content: space-between"><span>Ontology Construction and Application for ADAS</span><span>2026.01 — Present</span></FlexSpan>
+
+- A collaboration project with VCTC Co., Ltd.
+- Implement ontology-based ADAS testbench as a key project member.
 
 ## Awards and Scholarships
 
