@@ -12,11 +12,11 @@ const gender = (() => {
         case 'M':
         case 'Male':
         case 'Man':
-            return 'male'
+            return '男'
         case 'F':
         case 'Female':
         case 'Woman':
-            return 'female'
+            return '女'
         default:
             return gender
     }
@@ -85,11 +85,15 @@ const school: string = (() => {
     .info {
         align-items: center !important;
         flex-direction: row !important;
+        font-size: 8pt !important;
+        line-height: 1.0 !important;
     }
 
     .photo {
         margin-left: auto !important;
         margin-right: 0 !important;
+        width: 100px !important;
+        height: auto !important;
     }
 }
 

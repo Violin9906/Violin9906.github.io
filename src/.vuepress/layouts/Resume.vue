@@ -4,7 +4,7 @@
         <div class="vp-page">
             <div class="resume-container">
                 <ResumeInfo />
-                <hr class="resume-hr" />
+                <!-- <hr class="resume-hr" /> -->
                 <Content class="resume" />
             </div>
         </div>
@@ -26,13 +26,67 @@
     }
 }
 
+@media print {
+
+    @page {
+        margin: 1cm;
+    }
+
+    .resume-container {
+        width: 100% !important;
+        max-width: none !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    /* 2. 这里的 hr 如果太宽太黑，可以调淡或缩小间距 */
+    .resume-hr hr {
+        margin: 0.8rem 0 !important; // 缩小分割线上下间距
+        opacity: 0.5;
+    }
+
+    .resume {
+        font-size: 8pt !important; // 打印常用字号（约14px）
+        line-height: 1.0 !important;
+
+        /* 3. 针对你设计的 h2 (技能标签样式) 进行优化 */
+        h2 {
+            margin-top: 0.6rem !important; // 缩小标题上方的空白
+            padding: 0.2rem 0.8rem !important;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+
+        /* 4. 针对 h3 (项目/工作标题) */
+        h3 {
+            margin-top: 0.5rem !important;
+            margin-left: 0.5rem !important; // 减少缩进让空间更充裕
+        }
+
+        /* 5. 针对列表和段落 (最占地方的部分) */
+        ul {
+            margin-top: 0.3rem !important;
+            margin-bottom: 0.3rem !important;
+        }
+
+        li {
+            margin-top: 0.2rem !important; // 缩小列表项之间的行距
+        }
+
+        p {
+            margin-left: 1rem !important; // 减少缩进
+            margin-top: 0.2rem !important;
+        }
+    }
+}
+
 .resume-hr hr {
     margin: 1.5rem 0;
     border: none;
     border-top: 1px solid var(--border-color);
 }
 
-.resume{
+.resume {
     --tag-background: var(--text-color);
     --tag-color: #FFFFFF;
     --tag-hole-color: var(--tag-color);
@@ -102,19 +156,19 @@
     }
 
     h2 {
-      font-size: 1rem;
+        font-size: 1em;
 
-      @media (max-width: hope-config.$mobile) {
-        font-size: 1rem;
-      }
+        @media (max-width: hope-config.$mobile) {
+            font-size: 1em;
+        }
     }
 
     h3 {
-      font-size: 1rem;
+        font-size: 1em;
 
-      @media (max-width: hope-config.$mobile) {
-        font-size: 1rem;
-      }
+        @media (max-width: hope-config.$mobile) {
+            font-size: 1em;
+        }
     }
 
     /* technology stack*/
