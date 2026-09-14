@@ -4,6 +4,7 @@ date: 2025-09-27
 tag:
   - Robotics
   - Automation
+  - Mechanics
 ---
 
 # 旋转矩阵与四元数
